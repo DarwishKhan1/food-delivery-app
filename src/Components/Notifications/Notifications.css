@@ -1,0 +1,22 @@
+.notifcations .notifcation-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.send-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-notification,
+.btn-notification:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 5px 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .notifcations {
+    margin: 20px 0 0 0;
+  }
+}
